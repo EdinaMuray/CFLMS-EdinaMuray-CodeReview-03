@@ -1,0 +1,60 @@
+.cont1 {
+
+	background-image: url(../img/traffic.jpg);
+	background-color: #cccccc;
+	height: 600px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+	background-origin: content-box;
+}  	
+
+.box{
+	width: 80%;
+	height: 300px;
+	border: 5px double lightgray;
+	background-color: lightgray;
+	opacity: 0.4;
+	position: center;
+}
+
+#greating{
+
+		color: black;
+		font-size: 1.5em;
+		text-align: center;
+	}
+
+.choice4{
+	display: flex;
+	flex-direction: column;
+}
+
+.row1 {
+	display: flex;
+	width: 90%;	
+}
+
+.row2 {
+	display: flex;
+	width: 90%;	
+}
+
+
+/* cont3: 2 article-lists */;
+
+.cont3{
+	display: flex;
+	width: 90%;
+	justify-content: space-between;
+	align-items: center;
+
+
+	.card{
+		border: 1px solid lightgray;
+		width: 33%;
+		height: 200px;
+		margin: 1em;
+		padding: 1em;
+	}
+}

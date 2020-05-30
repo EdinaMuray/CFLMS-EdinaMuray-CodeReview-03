@@ -1,0 +1,38 @@
+footer{
+	height: 9em;
+	width: 100%;
+	background-color: black;
+}
+  
+ footer .copyrights{
+	color: white; 
+	font-size: 1.8vw;
+	font-style: bold;
+	font-family: "Times New Roman";
+	text-align: center;
+
+ }
+
+.inner_footer {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 13rem;
+	background-color: black;
+	padding: 0 0.1rem 0.1rem 0.1rem;
+	box-sizing: border-box;
+}
+
+.img_logo { 
+	flex: 1;
+	margin: 2.5rem;
+	align-self: flex-end;
+}
+
+.cr_banner{
+	flex: 2;
+	margin: 2rem;
+	justify-content: center;
+    align-items: center;
+
+}

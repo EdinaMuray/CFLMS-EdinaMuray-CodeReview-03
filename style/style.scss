@@ -1,0 +1,34 @@
+@import "reset/reset",
+		"header/header",
+		"navbar_top/navbar_top",
+		"navbar_down/navbar_down",
+		"form/form",
+		"flex/flex",
+		"footer/footer",
+		"mediaquery/mediaquery";
+
+
+
+main {
+	margin: 0 auto;
+}
+
+#car{
+	color: white;
+	font-size: 2em;
+	padding: 10px;
+}
+
+.cont2{
+	background-color: lightgray;
+	text-align: center;	
+}
+
+#midl{
+	font-size: 16px;
+}
+
+#span{
+		font-size: 22px;
+		font-weight: bold;
+	}

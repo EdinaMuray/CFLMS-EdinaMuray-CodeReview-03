@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Car Insurance</title>
+</head>
+
+
+<body>
+
+	<!-- header start here-->
+	<header>
+		<div class="inner_header">
+			<div class="logo">
+				<img src="img/logo.png" alt="logo">
+			</div>
+
+			<div class="banner-1">
+				<a href="https://www.codefactory.wien/" title="Code Factory Wien">
+				<img src="img/banner.png" alt="banner-header" style="border:0;">
+				</a>
+			</div>
+
+		</div>
+	</header>
+	<!-- /header end here-->
+
+
+	<!-- navbar start here-->
+	<nav id="navbar_top">
+		<ul>
+			<li><a href="Home.html" title="Home" target="_blank">Home</a></li>
+			<li><a href="Team.html" title="Team" target="_blank">Team</a></li>
+		</ul>
+	</nav>
+	<!-- /navbar end here-->
+
+	<main>
+		
+
+			<!-- container cont1 start here-->
+			<section class="cont1">
+
+				<h1 id="car">Car Insurance</h1>
+				<br>
+				
+				<!-- container box start here-->
+				<section class="box">
+					
+					<h2 id="greating">Great coverage begins<br>
+						 with a custom quote</h2>
+
+					<!-- container choice4 start here-->
+					<section class="choice4">
+
+						<div class="row1">
+
+							<form name="data" onsubmit="return false">
+								  <label for="name">Your Name:</label><br>
+							      <input type="text" name="name" id="name" placeholder="Your Name"/>
+							</form>
+
+							<form name="data" onsubmit="return false">
+								  <label for="age">Age:</label><br>
+							      <input type="number" name="age" id="age" placeholder="Age"/>
+							</form>
+
+						</div>
+
+						<div class="row2">
+
+							<form name="data" onsubmit="return false">
+								  <label for="country">Country:</label><br>
+							      <select name="country" id="select">
+										<option value="Austria">Austria</option>
+										<option value="Hungary">Hungary</option>
+										<option value="Greece">Greece</option>
+									</select>
+							</form>
+
+							<form name="data" onsubmit="return false">
+								  <label for="horsepower">Horsepower of your car:</label><br>
+							      <input type="number" name="horsepower" id="horsepower" placeholder="Horsepower"/>
+							</form>
+
+						</div>
+
+					</section>
+					<!-- container choice4 end here-->
+
+							<!-- container result start here-->
+							<div>
+								<button type="submit" click="submitData()" id="calculate">Calculate</button>
+		  						<p id="result">Printed calculation goes here</p>
+
+							</div>
+							<!-- container result end here-->
+
+				</section>
+				<!-- container box end here-->
+
+			</section>
+			<!-- container cont1 end here-->
+
+
+
+		<!--cont2 start here-->
+		<div class="cont2">
+				<p id="midl"><span id="span">Un-complicating car coverage</span><br>
+				Understanding your coverage options shouldn´t be so hard.<br>
+				We´ll guide you through available coverage types,<br>
+				starting with who and what os covered.</p>
+		</div>
+		<!-- cont2 end here-->
+
+
+
+				
+
+		<!-- cont3 start here -->
+		<section class="cont3">
+
+			<article class="card" id="card1">
+				<h3>What comes standard</h3>
+				<p>The coverage you need</p>
+				<ul>
+					<li>&#x2705; Bodily Injury Liability</li>
+					<li>&#x2705; Property Damage</li>
+					<li>&#x2705; Medical Payments</li>
+				</ul>	 				
+				<h4>Benefits</h4>
+				<p>12-month rate guarantee | 24/7 customer service | Lifetime Repair Guarantee</p>
+			</article>
+				
+			<article class="card" id="card2">
+				<h3>Add-on protection & coverage</h3>
+				<p>For more peace of mind</p>
+				<ul>
+					<li>&#x2705; Better Car Replacement</li>
+					<li>&#x2705; Towing & Labor</li>
+					<li>&#x2705; Rental Car Coverage</li>
+				</ul>	 				
+				<h4>Eraned Benefits</h4>
+				<p>Accident Forgiveness1 | New Car ReplacementTM</p>
+			</article>
+
+		</section>
+		<!-- cont3 end here -->
+
+	</main>
+
+	
+	<nav id="navbar_down">
+		<ul>
+			<li><a href="Home.html" title="Home" target="_blank">Home</a></li>
+			<li><a href="Team.html" title="Team" target="_blank">Team</a></li>
+		</ul>
+	</nav>
+
+	<footer>
+		<div class="inner_footer">
+			<div class="img_logo">
+				<img src="img/logo-inv.png" alt="logo">
+			</div>
+
+			<div class="cr_banner">
+				<p class="copyrights">Edina Muray - CodeFactory 2018</p>
+			</div>
+		</div>
+	</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

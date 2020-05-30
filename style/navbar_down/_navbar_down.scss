@@ -1,0 +1,29 @@
+#navbar_down{
+	background-color: black;
+	font-size: 2.2vw;
+  height: 4vw;
+}
+
+#navbar_down ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  li {
+    float: left;
+  }
+}
+
+
+#navbar_down a {
+  display: block;
+  padding: 0.8vw;
+  color: #fff;
+  text-decoration: none;
+}
+
+#navbar_down a:hover {
+  color: red;
+  text-decoration: underline;
+}
