@@ -1,0 +1,166 @@
+@import "./base/settings";
+@import "./base/base";
+@import "./partials/shared";
+
+// Calculation area
+.hero {
+	background-image: url(../img/traffic.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	width: 100%;
+	padding-bottom: 2em;
+}
+
+.hero_title {
+	text-align: left;
+	padding: $s-size;
+	color: whitesmoke;
+}
+
+// Form container
+.ins-calc_area {
+	background-color: grey;
+	opacity: 0.9;
+	border: 3px solid lightgrey;
+	border-radius: 2px;
+	height: 50rem;
+	max-width: 90%;
+	margin-left: 5em;
+	margin-right: 5em;
+	padding-top: 2em;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-items: center;
+}
+
+.ins-calc_area-title {
+	color: black;
+	font-size: $font-size-large;
+}
+
+.ins-calc_area-wrap1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.ins-calc_area-wrap2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#name,
+#age,
+#horsepower,
+#country {
+	width: 30rem;
+	height: 5rem;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+}
+
+.input {
+	width: 100%;
+	padding: $s-size;
+	font-size: $font-size-medium;
+}
+
+select {
+	width: 100%;
+	padding: $s-size;
+	font-size: $font-size-medium;
+}
+
+#calculate {
+	background-color: $button;
+	color: white;
+	padding: $s-size $m-size;
+	margin: $s-size;
+	border: none;
+	border-radius: 9px;
+	font-size: $font-size-large;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+button:focus {
+	outline: none;
+}
+
+#result {
+	display: flex;
+	justify-content: center;
+	color: darkgreen;
+	font-size: $font-size-medium;
+
+	p {
+		padding: $m-size*2 0 $m-size 0;
+		text-align: center;
+	}
+}
+
+// Credo
+.credo {
+	background-color: $description-bg;
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	padding: $l-size 0 $l-size 0;
+}
+
+.credo-title {
+	font-size: $font-size-large*1.5;
+	font-weight: bold;
+}
+
+// Packages
+.packages {
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	margin: $xl-size 0;
+}
+
+hr {
+	color: gray;
+	opacity: 0.3;
+	margin: 2rem 1rem 1rem 1rem;
+}
+
+.package-offer {
+	width: 40%;
+	padding: $m-size;
+	border-top: 1.5px solid black;
+	border-right: 2px solid lightgray;
+	border-bottom: 2px solid lightgray;
+	border-left: 2px solid lightgray;
+	border-radius: 5px;
+	margin-top: 2em;
+	box-shadow: 4px 4px 11px 1px $shadow;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	text-align: left;
+}
+
+.package-offer_title {
+	color: rgba(0, 0, 139, 0.9);
+	margin-bottom: 0;
+	font-size: $font-size-large;
+}
+
+.package-offer_subtitle {
+	font-weight: bold;
+}
+
+.package-offer_quality-symbol {
+	color: $check-symbol;
+}

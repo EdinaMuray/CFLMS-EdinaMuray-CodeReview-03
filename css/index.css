@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+
+.header {
+  background: #fff3f3;
+  width: 100%;
+  padding: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header div {
+  margin: 0 1.4rem;
+}
+
+.navbar_items {
+  background-color: #872829;
+  display: flex;
+}
+
+.navbar_items .navbar_item {
+  margin: 0 0 0 1.4rem;
+}
+
+.navbar_items .navbar_item-link {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.navbar_items #down {
+  background: #171717;
+}
+
+.footer {
+  background-color: #171717;
+  display: flex;
+  flex-direction: column;
+  font-size: 2.4rem;
+}
+
+.footer .footer-logo {
+  display: flex;
+  justify-content: flex-end;
+  margin: 1.4rem;
+}
+
+.footer .credits {
+  display: flex;
+  justify-content: center;
+}
+
+.footer .credits p {
+  color: white;
+  font-size: 1.4rem;
+}
+
+@media (max-width: 810px) {
+  .banner {
+    display: none;
+  }
+}
+
+@media (max-width: 580px) {
+  .header img {
+    display: inline-block;
+  }
+  .navbar_items .navbar_item {
+    margin: 0 0.7rem;
+  }
+  .header,
+  .navbar_items,
+  .footer .footer-logo {
+    justify-content: center;
+  }
+  .footer {
+    margin-top: 3.2rem;
+  }
+}
+
+.hero {
+  background-image: url(../img/traffic.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  padding-bottom: 2em;
+}
+
+.hero_title {
+  text-align: left;
+  padding: 1.4rem;
+  color: whitesmoke;
+}
+
+.ins-calc_area {
+  background-color: grey;
+  opacity: 0.9;
+  border: 3px solid lightgrey;
+  border-radius: 2px;
+  height: 50rem;
+  max-width: 90%;
+  margin-left: 5em;
+  margin-right: 5em;
+  padding-top: 2em;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-items: center;
+}
+
+.ins-calc_area-title {
+  color: black;
+  font-size: 2.4rem;
+}
+
+.ins-calc_area-wrap1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ins-calc_area-wrap2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#name,
+#age,
+#horsepower,
+#country {
+  width: 30rem;
+  height: 5rem;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.input {
+  width: 100%;
+  padding: 1.4rem;
+  font-size: 1.8rem;
+}
+
+select {
+  width: 100%;
+  padding: 1.4rem;
+  font-size: 1.8rem;
+}
+
+#calculate {
+  background-color: #289d29;
+  color: white;
+  padding: 1.4rem 1.6rem;
+  margin: 1.4rem;
+  border: none;
+  border-radius: 9px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+#result {
+  display: flex;
+  justify-content: center;
+  color: darkgreen;
+  font-size: 1.8rem;
+}
+
+#result p {
+  padding: 3.2rem 0 1.6rem 0;
+  text-align: center;
+}
+
+.credo {
+  background-color: #aeaeae;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  padding: 3.2rem 0 3.2rem 0;
+}
+
+.credo-title {
+  font-size: 3.6rem;
+  font-weight: bold;
+}
+
+.packages {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  margin: 4.8rem 0;
+}
+
+hr {
+  color: gray;
+  opacity: 0.3;
+  margin: 2rem 1rem 1rem 1rem;
+}
+
+.package-offer {
+  width: 40%;
+  padding: 1.6rem;
+  border-top: 1.5px solid black;
+  border-right: 2px solid lightgray;
+  border-bottom: 2px solid lightgray;
+  border-left: 2px solid lightgray;
+  border-radius: 5px;
+  margin-top: 2em;
+  box-shadow: 4px 4px 11px 1px #e5e3e2;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  text-align: left;
+}
+
+.package-offer_title {
+  color: rgba(0, 0, 139, 0.9);
+  margin-bottom: 0;
+  font-size: 2.4rem;
+}
+
+.package-offer_subtitle {
+  font-weight: bold;
+}
+
+.package-offer_quality-symbol {
+  color: #315fa6;
+}
+/*# sourceMappingURL=index.css.map */
